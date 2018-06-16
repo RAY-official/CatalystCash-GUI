@@ -21,7 +21,7 @@ cmake-release:
 build-release: cmake-release
 	cd build/release && $(MAKE)
 	mkdir -p bin
-	mv build/release/catawallet bin/catawallet
+	mv build/release/catalyst bin/catalyst
 
 test-release: build-release
 	cd build/release && $(MAKE) test

@@ -11,7 +11,7 @@ git submodule update --remote
 **2. Set symbolic link to coin sources at the same level as `src`. For example:**
 
 ```
-ln -s ../Catalyst-Cash cryptonote
+ln -s ../PhotonCoin-GUI cryptonote
 ```
 
 Alternative way is to create git submodule:

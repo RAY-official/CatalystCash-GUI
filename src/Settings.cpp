@@ -104,7 +104,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "seed1.catalyst.cash:6790" << "seed2.catalyst.cash:6790" << "114.124.245.43:6790"; // "pool2.democats.org:7671"
+  defaultNodesList << "seed1.catalyst.cash:10331" << "seed2.catalyst.cash:10331" << "114.124.245.43:10331"; // "pool2.democats.org:7671"
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {

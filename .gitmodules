@@ -3,4 +3,4 @@
 	url = https://github.com/FndNur1Labs/libqrencode.git
 [submodule "cryptonote"]
 	path = cryptonote
-	url = https://github.com/CatalystCash/Catalyst-Cash.git
+	url = https://github.com/RAY-official/PhotonCoin.git
